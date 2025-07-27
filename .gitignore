@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+.env/
+.envrc
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Config override
+config.local.yaml
+config.secret.yaml
+
+# Editor junk
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# VSCode
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# Compiled markdown/conversion outputs (if any)
+output/
+build/
+dist/
+
+# Backup files
+*~
+
+# State file (if not version控制)
+sync_state.json

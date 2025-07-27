@@ -1,0 +1,10 @@
+obsidian_path: "OBSIDIAN_VAULT_PATH"
+filter:
+  tag: "confluence-sync"
+  include_dirs:
+confluence:
+  url: "YOUR_CONFLUENCE_URL"
+  username: "YOUR_CONFLUENCEACCOUNT"
+  api_token: "YOUR_TOKEN"
+  space_key: "PM"  # 替换为你的空间代号
+  parent_page_id: null  # 可设定为目录页的 ID
